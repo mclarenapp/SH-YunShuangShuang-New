@@ -1,1 +1,123 @@
 
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>云双双 路线. v1.0.</title>
+    <link href="https://cdn.staticfile.org/bootstrap/5.2.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.staticfile.org/bootstrap-icons/1.10.2/font/bootstrap-icons.min.css" rel="stylesheet">
+
+    <style>
+        html,
+        body {
+            height: 100%;
+            font-size: 12px;
+        }
+
+        body {
+            display: flex;
+            align-items: center;
+            background-color: #f5f5f5;
+        }
+    </style>
+
+</head>
+
+<body>
+    <main class="container">
+        <div class="mb-3 text-center">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAABuCAYAAABiHVxtAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA3BpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDkuMS1jMDAyIDc5LmYzNTRlZmM3MCwgMjAyMy8xMS8wOS0xMjowNTo1MyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo4NWI3ODhiNi00ZDVkLTRkNzgtYTAyYy1kNGZkZTU4NzRlYWIiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MzQ1OEZFRUZFRTkyMTFFRUFEMjhFNzExRjJFOTdCNzMiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MzQ1OEZFRUVFRTkyMTFFRUFEMjhFNzExRjJFOTdCNzMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIDIyLjQgKE1hY2ludG9zaCkiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDoxM0IxN0Y3NkVDMkMxMUVFQURBOTkzRkQ3RDJBM0E5MiIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDoxM0IxN0Y3N0VDMkMxMUVFQURBOTkzRkQ3RDJBM0E5MiIvPiA8L3Jk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">
+        </div>
+        <div id="block-selLines">
+
+        </div>
+    </main>
+    <iframe style=" width:100%; height:100%; display:none;"></iframe>
+    <script type="text/html" id="tpl-lines">
+        <form id="myform">
+            <h3 class="mb-2">选择可用线路</h3>
+            <select class="form-select mb-2" size="5" id="domainLines">
+            <option selected>请点击选择对应产品的可用线路</option>
+                {{each $data}}
+                <option value="{{$value.host}}">{{$value.title}}</option>
+                {{/each}}
+            </select>
+            <button class="w-100 btn btn-lg btn-primary" type="button" onclick="enter(this);">进 入 --></button>
+        </form>
+    </script>
+    <script src="https://cdn.staticfile.org/art-template/4.13.2/lib/template-web.min.js"></script>
+    <script src="https://cdn.staticfile.org/zepto/1.2.0/zepto.min.js"></script>
+    <script src="https://cdn.staticfile.org/bootstrap/5.2.2/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            var selectLine = getCookie('selline');
+            if (selectLine.length > 0) {
+                $.ajax({
+                    type: "get",
+                    cache: false,
+                    url: selectLine + "/Api/ApiWeb/LoginCheckStateCb",
+                    dataType: "jsonp",
+                    jsonp: 'cb',
+                    success: function (data) {
+                        if (data.Code == 1) {
+                            $("main").hide();
+                            $("iframe").attr("src", selectLine + '/User').show();
+                        }
+                    }
+                });
+            }
+            $.ajax({
+                type: "get",
+                cache: false,
+                url: "https://mclarenapp.github.io/SH_Lines/yss_alist.txt",
+                dataType: "jsonp"
+            });
+        });
+        function JsonpData(data) {
+            var html = $(template("tpl-lines", data.lines));
+            $("#block-selLines").html(html[0]);
+        }
+        function enter(obj) {
+            var domainLines = $("#domainLines");
+            var selectLine = domainLines.val();
+            addCookie('selline', selectLine, 240, "", "");
+            $("main").hide();
+            $("iframe").attr("src", selectLine).show();
+        }
+        function getCookie(objName) {
+            var value = "";
+            var arrStr = document.cookie.split("; ");
+            for (var i = 0; i < arrStr.length; i++) {
+                var temp = arrStr[i].split("=");
+                if (temp.length == 2) {
+                    if (temp[0] == objName) {
+                        value = unescape(temp[1]);
+                        break;
+                    }
+                }
+            }
+            return value;
+        }
+        function addCookie(objName, objValue, objHours, objDomain, objPath) {
+            var str = objName + "=" + escape(objValue);
+            if (objHours > 0) {
+                var date = new Date();
+                var ms = objHours * 3600 * 1000;
+                date.setTime(date.getTime() + ms);
+                str += "; expires=" + date.toGMTString();
+            }
+            if (objDomain != "") {
+                str += "; domain=" + objDomain;
+            }
+            if (objPath != "") {
+                str += "; path=" + objPath;
+            }
+            document.cookie = str;
+        }
+    </script>
+</body>
+
+</html>
